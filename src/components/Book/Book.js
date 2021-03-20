@@ -5,10 +5,10 @@ const Book = () => {
     const {bedType} = useParams();
     return (
         <div style={{textAlign: 'center'}}>
-            <h1>Let's book a {bedType} Room.</h1>
-            <p>Want a <Link to="/home">different room?</Link> </p>
+            <h1 style={{color: 'black'}}>This is the {bedType} room booking area</h1>
+            
         </div>
     );
 };
 
-export default Book;
+export default Book; 
